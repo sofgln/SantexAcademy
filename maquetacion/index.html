@@ -5,52 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+   
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <div id="header" style="border-bottom: 1px solid rgb(167, 167, 167); display: flex; padding: 10px 100px; justify-content: space-between">
         <div id="header-left">
             <img src="logo.svg">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+        <div id="header-right" style="display: flex; align-items:center; justify-content: flex-end;">
+            <p class="nav-item">Nosotros</p>
+            <p class="nav-item">Programas</p>
+            <p class="nav-item">Capaciontaciones</p>
+            <p class="nav-item">Alianzas</p>
+            <p class="nav-item">Contacto</p>
+            <button class="redondo blackhover">Sumate +</button>
+            <div id="iconscontainer">
+                <i class="bi bi-instagram icon"></i>
+                <i class="bi bi-linkedin icon"></i>
+            </div>
+            
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+    <div id="introduction" >
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <button class="redondo blackhover">Contactanos -></button>
+            <button id="sumatevioleta" class="redondo" style="margin-left: 14px;">Sumate +</button>
         </div>
+        
     </div>
+    <section id="impacto">
+        <div id="impacto-textos">
+            <h2>.Impacto</h2>
+            <p id="impacto-p">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+        </div>
+        <div id="impacto-numeros">
+            <div class="num-content">
+                <p>58</p>
+                <p>localidades</p>
+            </div>
+            <div class="num-content">
+                <p>+50</p>
+                <p>mentores</p>
+            </div>
+            <div class="num-content">
+                <p>301</p>
+                <p>participantes</p>
+            </div>
+        </div>
+
+    </section>
 </body>
 </html>

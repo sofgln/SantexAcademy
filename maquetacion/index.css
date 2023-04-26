@@ -1,0 +1,123 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Courier, monospace;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 0px 400px;
+    text-align: center;
+    color: #201b24;
+    font-weight: 600;
+}
+
+p {
+    margin-right: 40px;
+}
+#header{
+    position: sticky;
+}
+
+button.redondo {
+    background-color: white;
+    border: 2px solid #201b24;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+#iconscontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 5%;
+    margin-left: 30px;
+}
+.icon{
+    margin:10px;
+}
+#header-right{
+    width: 75%;
+}
+.blackhover:hover{
+    background-color: #201b24;
+    color: beige;
+}
+#sumatevioleta{
+    background-color: white;
+    border: 2px solid #6b53f0;
+    color: #6b53f0;
+
+}
+#sumatevioleta:hover{
+    background-color: #6b53f0;
+    color: white;
+}
+.icon:hover{
+    color: #6b53f0;
+}
+.nav-item:hover{
+    color: #6b53f0;
+}
+#introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 47vh;
+}
+#impacto{
+    width: 100%;
+    height: 50vh;
+    background-color: #201b24;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#impacto-p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16;
+}
+#impacto-textos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+    
+}
+#impacto-numeros{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+
+}
